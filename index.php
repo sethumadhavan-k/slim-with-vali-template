@@ -27,8 +27,7 @@ $app->add(TwigMiddleware::createFromContainer($app));
 
 
 $app->get('/', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Hello world!");
-    return $response;
+    return $this->get('view')->render($response, 'index.html');
 });
 
 $app->get('/dashboard', function (Request $request, Response $response, $args) {
