@@ -1,0 +1,1 @@
+# slim-with-vali-template
