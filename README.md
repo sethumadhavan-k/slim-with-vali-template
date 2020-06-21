@@ -1,1 +1,1 @@
-# slim-with-vali-template
+# Slim with vali template
